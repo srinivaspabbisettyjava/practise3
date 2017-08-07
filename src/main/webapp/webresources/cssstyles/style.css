@@ -1,0 +1,81 @@
+@CHARSET "ISO-8859-1";
+
+body, html{
+	
+	height:100%;
+	background-repeat: no-repeat;
+	background-color: blue;
+	font-family: 'Oxygen',sans-serif;
+	background-size: cover;
+	
+}
+
+#footer {
+	position: relative;
+	bottom: 0;
+	background-color: #6f7373;
+	width: 97%;
+	height: 100px;
+}
+
+#header {
+	background-color: #61d0c5;
+	position: absolute;
+	top: 0;
+	width: 97%;
+	height: 100px;
+}
+
+#headerlogo img {
+	width: 100px;
+	top: 0;
+}
+
+#header-nav {
+	float: right;
+	margin-top: 52px;
+}
+
+#header-logos img{
+    top:0;
+    float:right;
+   
+    
+
+}
+
+#header-nav span {
+	-moz-box-shadow: 0px 0px 0px 0px #276873;
+	-webkit-box-shadow: 0px 0px 0px 0px #276873;
+	box-shadow: 0px 0px 0px 0px #276873;
+	background-color: #599bb3;
+	-moz-border-radius: 28px;
+	-webkit-border-radius: 28px;
+	border-radius: 28px;
+	border: 1px solid #29668f;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: Georgia;
+	font-size: 17px;
+	font-weight: bold;
+	padding: 13px 19px;
+	text-decoration: none;
+	text-shadow: 0px 1px 0px #3d768a;
+}
+
+.myButton:hover {
+	background-color: #408c99;
+}
+
+#header-nav span active {
+	position: relative;
+	top: 1px;
+}
+
+#main {
+	position: relative;
+	padding-left: 5px;
+	width: 1500px;
+	margin: 25px;
+}
